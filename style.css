@@ -129,7 +129,9 @@ margin-top: 0px;
 {
     margin-right: 100px;
 }
-.card1
+.card1,
+.card2,
+.card3
 {
     background-color: rgb(58, 57, 57);
     width: 350px;
@@ -137,6 +139,7 @@ margin-top: 0px;
     padding: 20px;
     border-radius: 10px;
     transition: background-color 0.5s,transform 0.5s;
+    overflow:hidden;
 }
 
 .card1 >p
@@ -150,10 +153,12 @@ margin-top: 0px;
     font-size: 12px;
 
 }
-.card1:hover
-{
-background-color: rgb(240, 10, 87);
-transform: translateY(-10px);
+/* Hover stays same */
+.card1:hover,
+.card2:hover,
+.card3:hover {
+  background-color: rgb(240, 10, 87);
+  transform: translateY(-10px);
 }
 .port{
 margin-top: 100px;
