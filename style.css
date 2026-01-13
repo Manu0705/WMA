@@ -346,6 +346,10 @@ background-color:  rgb(231, 30, 63);
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+
+  font-size: 14px;
+  line-height: 1.5;
+  max-height: calc(1.5em * 4); /* HARD STOP */
   margin-bottom: 12px;
 }
 
